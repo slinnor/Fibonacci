@@ -6,5 +6,12 @@ Fibonacci ma 2 zname hodnoty na prvnich 2 prvcich - 1 a 1. Z techto hodnot se pa
 
 Veskera prace s Fibonnaciho posloupnosti by se mela dit ve tride `Fibonacci` a prace s uzivatelem, tedy jeho vstup apod. se bude dit v `Program.cs`. 
 
+## Prace s List<>
+Pro tenhle ukol budete potrebovat zjistit velikost Listu, tak, abyste spravne secetli posledni a predposledni prvek v poli a a mohli pole neustale rozsirovat. Pro zjisteni poctu prvku v Listu slouzi metoda `List<>.Count()`, ktera vrati velikost pole:
+```cs
+List<int> numbers = new();
+int count = numbers.Count();
+```
+
 ## Termin odevzdani
 Patek 13. 10. 2023 - 20:00
